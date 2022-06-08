@@ -10,22 +10,22 @@ body {
     background-color: #e3fcff;
     margin: auto;
 }
-.container .git-link {
+.container .get-link {
     padding: 20px;
     display: flex;
     background-color: #e2ebec;
 }
-.container .git-link input{
+.container .get-link input{
     width: 100%;
     padding: 15px 20px;
     border: none;
     font-size: 20px;
     height: 50px;
 }
-.container .git-link input:focus{
+.container .get-link input:focus{
     outline: 2px solid #079aad;
 }
-.container .git-link .git-button {
+.container .get-link .get-button {
     background-color: #079aad;
     color: #fff;
     height: 50px;
