@@ -3,6 +3,11 @@ let theInput = document.querySelector(".get-link input")
 let getButton = document.querySelector(".get-button")
 let myData = document.querySelector(".show-data")
 
+theInput.addEventListener ("keyup", (e) => {
+    if(e.keyCode === 13) {
+        getLink()
+    }
+})
 
 getButton.onclick = function () {
     getLink()
